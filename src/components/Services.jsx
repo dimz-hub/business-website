@@ -1,10 +1,12 @@
+import Footer from "./Footer"
+
 function Services() {
-    return (
-        <div className="w-full h-full bg-green-200">
+    return ( 
+        <div className="w-full h-full bg-slate-50">
         <div className="mx-auto p-8 text-center">
             <h1 className="text-4xl font-bold mb-5">Our Services</h1>
             <div className="flex space-x-7 mb-5 justify-center">
-            <div className="flex flex-col items-center justify-start w-1/4 bg-slate-50 p-6 rounded-xl">
+            <div className="flex flex-col items-center justify-start w-1/4 bg-green-200 p-6 rounded-xl">
             <div className="w-20 h-20 my-3 rounded-lg"><img src="./images/unnamed.jpg" alt="services" /></div>
             <p className="text-lg text-left">
             <h1 className="text-lg font-bold text-center">ISO 20000</h1>
@@ -18,7 +20,7 @@ function Services() {
             </p>
             </div>
 
-            <div className="flex flex-col items-center justify-start w-1/4 bg-slate-50 p-6 rounded-xl">
+            <div className="flex flex-col items-center justify-start w-1/4 bg-green-200 p-6 rounded-xl">
             <div className="w-20 h-20 my-3 rounded-lg"><img src="./images/unnamed.jpg" alt="services" /></div>
             <p className="text-lg text-left">
             <h1 className="text-lg font-bold text-center">ITIL services</h1>
@@ -33,7 +35,41 @@ function Services() {
             </p>
             </div>
 
-            <div className="flex flex-col items-center justify-start w-1/4 bg-slate-50 p-6 rounded-xl">
+            <div className="flex flex-col items-center justify-start w-1/4 bg-green-200 p-6 rounded-xl">
+            <div className="w-20 h-20 my-3 rounded-lg"><img src="./images/unnamed.jpg" alt="services" /></div>
+            <p className="text-lg text-left">
+            <h1 className="text-lg font-bold text-center">Software requirements management (SRM)</h1>
+            Software requirements management (SRM) is a process for gathering, documenting, and managing the requirements for a software system. It is an essential part of the software development process, as it helps to ensure that the system meets the needs of the users and stakeholders.
+            Our SRM services help organizations to:
+                <ul className="list-disc pl-5 mt-1">
+                    <li>Gather and document requirements</li>
+                    <li>Manage requirements</li>
+                    <li>Communicate requirements</li>
+                    <li>Validate requirements</li>
+                    <li>Verify requirements</li>
+                </ul>
+            </p>
+            </div>
+
+
+            </div>
+            <div className="flex space-x-5 justify-center">
+
+            <div className="flex flex-col items-center justify-start w-1/4 bg-green-200 p-6 rounded-xl">
+            <div className="w-20 h-20 my-3 rounded-lg"><img src="./images/unnamed.jpg" alt="services" /></div>
+            <p className="text-lg text-left">
+            <h1 className="text-lg font-bold text-center">Project Management Services</h1>
+            With our In-house team of Project managers, we offer Project management services that help organizations to deliver projects successfully. These services can include:
+                <ul className="list-disc pl-5 mt-1">
+                    <li>Project planning</li>
+                    <li>Project execution</li>
+                    <li>Project monitoring and control</li>
+                    <li>Project closure</li>
+                </ul>
+            </p>
+            </div>
+
+            <div className="flex flex-col items-center justify-start w-1/4 bg-green-200 p-6 rounded-xl">
             <div className="w-20 h-20 my-3 rounded-lg"><img src="./images/unnamed.jpg" alt="services" /></div>
             <p className="text-lg text-left">
             <h1 className="text-lg font-bold text-center">Software Testing Services</h1>
@@ -48,24 +84,7 @@ function Services() {
             </p>
             </div>
 
-            </div>
-            <div className="flex space-x-5 justify-center">
-
-            <div className="flex flex-col items-center justify-start w-1/4 bg-slate-50 p-6 rounded-xl">
-            <div className="w-20 h-20 my-3 rounded-lg"><img src="./images/unnamed.jpg" alt="services" /></div>
-            <p className="text-lg text-left">
-            <h1 className="text-lg font-bold text-center">Project Management Services</h1>
-            With our In-house team of Project managers, we offer Project management services that help organizations to deliver projects successfully. These services can include:
-                <ul className="list-disc pl-5 mt-1">
-                    <li>Project planning</li>
-                    <li>Project execution</li>
-                    <li>Project monitoring and control</li>
-                    <li>Project closure</li>
-                </ul>
-            </p>
-            </div>
-
-            <div className="flex flex-col items-center justify-start w-1/4 bg-slate-50 p-6 rounded-xl">
+            <div className="flex flex-col items-center justify-start w-1/4 bg-green-200 p-6 rounded-xl">
             <div className="w-20 h-20 my-3 rounded-lg"><img src="./images/unnamed.jpg" alt="services" /></div>
             <p className="text-lg text-left">
             <h1 className="text-lg font-bold text-center">Application Software Development Service</h1>
@@ -75,6 +94,7 @@ function Services() {
             </div>
             
         </div>
+        <Footer/>
         </div>
     )
 }
