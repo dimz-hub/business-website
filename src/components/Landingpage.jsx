@@ -4,6 +4,9 @@ import Topservice from './Topservice'
 import Footer from './Footer'
 import Contact from './Contact'
 import { ContactDetails } from './ContactDetails'
+import Hiring from './Hiring'
+import Project from './Project'
+
 
 export default function Landingpage() {
   return (
@@ -12,6 +15,9 @@ export default function Landingpage() {
       <Topservice />
       <ContactDetails/>
       <Footer/>
+      <Hiring />
+      <Project/>
+
     </div>
   )
 }
