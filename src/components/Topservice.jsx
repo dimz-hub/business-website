@@ -86,7 +86,7 @@ export default function Topservice() {
 
   </div>
   <Link to={'/services'}>
-  <button className=' hero-button p-3 outline-none bg-[black] text-[white] ml-[10px]  w-[12rem] rounded-[10px] mt-[15px]  '>
+  <button className=' hero-button p-2 outline-none bg-[black] text-[white] ml-[10px]  w-[10rem] rounded-[10px] mt-[15px]  '>
       Learn More
     </button>
   </Link>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -10,8 +11,8 @@ export default function Navbar() {
         </div>
         <div className = 'flex items-center justify-center gap-[15px] text-[23px]'>
             <span>Who are we?</span>
-            <span>services</span>
-            <span>Contact Us</span>
+            <Link to={"/services"}> <span>Services </span></Link>
+            <Link to={"/contact"}><span>Contact Us</span></Link>
         </div>
     </div>
 
