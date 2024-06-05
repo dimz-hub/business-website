@@ -1,7 +1,7 @@
 export function ContactDetails() {
 
     return (
-        <div className="h-screen w-full p-5 mx-auto">
+        <div className="h-screen w-full p-5 mx-auto mt-[45px]">
             <div className="flex flex-col items-center">
                 <div className="text-4xl font-bold my-5 ">Contact Us</div>
                 <div className="flex p-5 mx-auto w-[80%]">

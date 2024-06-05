@@ -6,6 +6,7 @@ import Contact from './Contact'
 import { ContactDetails } from './ContactDetails'
 import Hiring from './Hiring'
 import Project from './Project'
+import Client from './Client'
 
 
 export default function Landingpage() {
@@ -13,10 +14,11 @@ export default function Landingpage() {
     <div className='overflow-x-hidden'>
       <Topsection />
       <Topservice />
-      <ContactDetails/>
-      <Footer/>
       <Hiring />
       <Project/>
+      <Client />
+      <ContactDetails/>
+      <Footer/>
 
     </div>
   )

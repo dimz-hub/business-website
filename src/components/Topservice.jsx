@@ -6,7 +6,7 @@ export default function Topservice() {
     <div className='services bg-[] w-[100vw] h-[auto]'>
     <div >
 
-<div className='w-[90vw] m-[auto] p-[25px] flex items-center justify-center flex-col ' >
+<div className='w-[90vw] m-[auto] p-[25px] mt-[45px] flex items-center justify-center flex-col ' >
 
   <h1 className = 'text-[50px] text-[#183D3D] font-[600] mb-[50px] xs:text-[38px]'    >Our Services</h1>
   
